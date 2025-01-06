@@ -1,0 +1,36 @@
+.products-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.filter-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.filter-button:active {
+    background-color: #1abc9c;
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .products-filter {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

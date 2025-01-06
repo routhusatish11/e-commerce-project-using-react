@@ -1,0 +1,131 @@
+.product-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.product-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.product-image-section {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.product-info-section {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #2980b9;
+}
+
+.total-price-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.total-price-section p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.loader {
+    border-top-color: transparent;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+    width: 4rem;
+    height: 4rem;
+    border-top-color: #3498db;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.error-message {
+    text-align: center;
+    margin-top: 50px;
+}

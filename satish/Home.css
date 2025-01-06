@@ -1,0 +1,44 @@
+
+.home-container {
+    position: relative;
+    font-family: "Arial", sans-serif;
+    background-image: url("https://www.reasonableshopping.com/wp-content/uploads/2019/02/men-shopping-masculine.jpg");
+    height:100vh;
+}
+
+
+.hero-section {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1511164738665-3fdf9b58f985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    filter: brightness(80%);
+    position: relative;
+}
+
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}

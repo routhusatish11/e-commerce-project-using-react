@@ -1,0 +1,124 @@
+
+.about-container {
+    padding: 50px;
+    background-color: #f9f9f9;
+    background-image: url('https://storyathome.com/cdn/shop/articles/rawpixel-1080873-unsplash_1.jpg?v=1623144780&width=1100'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    color: #fff;
+    flex-direction: column; 
+}
+
+
+.about-header {
+    text-align: center;
+    margin-bottom: 30px; 
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 40px;
+    border-radius: 8px;
+}
+
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.about-text {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #5da0ac;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* Brand Title Styling */
+.brand-title {
+    text-align: center;
+    font-size: 4rem; 
+    font-weight: 800; 
+    color: #3b8290; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); 
+    margin-bottom: 40px;
+    padding: 0 20px; 
+}
+.brand-title:hover {
+    color: #beeae7;
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px); 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-image {
+        padding: 10px;
+    }
+
+    .about-text {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-heading {
+        font-size: 2.5rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+    }
+
+    .about-header {
+        font-size: 2rem; 
+        margin-bottom: 20px; 
+    }
+}
